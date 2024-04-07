@@ -69,16 +69,12 @@ def play_bulls_and_cows():
         # Správné zvolení jednotného a množného čísla.
         if bulls == 1 and cows == 1:
             print(f"{bulls} bull, {cows} cow")
-            print(print_separator)
         elif bulls == 1:
             print(f"{bulls} bull, {cows} cows")
-            print(print_separator)
         elif cows == 1:
             print(f"{bulls} bulls, {cows} cow")
-            print(print_separator)
         else:
             print(f"{bulls} bulls, {cows} cows")
-            print(print_separator)
 
 if __name__ == "__main__":
     play_bulls_and_cows()
